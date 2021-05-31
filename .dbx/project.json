@@ -4,6 +4,16 @@
             "profile": "DEFAULT",
             "workspace_dir": "/Shared/dbx/projects/cicd-sample-project",
             "artifact_location": "dbfs:/dbx/cicd-sample-project"
+        },
+        "local": {
+            "profile": "local",
+            "workspace_dir": "/Shared/dbx/projects/cicd-sample-project/local",
+            "artifact_location": "dbfs:/dbx/cicd-sample-project/local"
+        },
+        "prod": {
+            "profile": "prod",
+            "workspace_dir": "/Shared/dbx/projects/cicd-sample-project/prod",
+            "artifact_location": "dbfs:/dbx/cicd-sample-project/prod"
         }
     }
 }
